@@ -30,6 +30,8 @@ public class ConcortHotelPage {
     @FindBy (xpath = "//*[.='Try again please']")
     public WebElement LoginFailedYazisi;
 
+    @FindBy (xpath = "//span[text()='Hotel Management']")
+    public WebElement hotelManagementLinki;
 
 
 
